@@ -8,4 +8,10 @@ export const LayoutMain = styled.main`
   min-height: 100vh;
   padding: 0 4.5rem 0 30rem;
   width: 100%;
+
+  body#grid & {
+    grid-template-areas:
+      "posts"
+      "pagination";
+  }
 `
