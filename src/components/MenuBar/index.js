@@ -43,7 +43,7 @@ const MenuBar = () => {
         >
           <Light />
         </S.MenuBarItem>
-        <S.MenuBarItem title="Mudar visualização">
+        <S.MenuBarItem title="Mudar visualização" className="display">
           <Grid />
         </S.MenuBarItem>
         <S.MenuBarItem title="Ir para o Topo">
