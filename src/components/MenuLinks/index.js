@@ -5,7 +5,7 @@ import links from "./content"
 import * as S from "./styled"
 
 const MenuLinks = () => (
-  <S.MenuLinksWrapper>
+  <S.MenuLinksWrapper className="links-wrapper">
     <S.MenuLinksList>
       {links.map((link, i) => (
         <S.MenuLinksItem key={i}>

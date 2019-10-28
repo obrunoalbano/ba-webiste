@@ -1,7 +1,23 @@
 import styled from "styled-components"
+import media from "styled-media-query"
 import { Link } from "gatsby"
 
-export const MenuLinksWrapper = styled.nav``
+export const MenuLinksWrapper = styled.nav`
+  ${media.lessThan("large")`
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background: var(--mediumBackground);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: translateX(-100%);
+    transition: 300ms all;
+    z-index: 1000;
+  `}
+`
 
 export const MenuLinksList = styled.ul`
   font-size: 1.8rem;
