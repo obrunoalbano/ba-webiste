@@ -20,8 +20,10 @@ const Sidebar = () => {
       }}>
         {!isNav ? <Nav/> : <Close/>}
       </S.SidebarNav>
-      <SocialLinks />
-      <MenuLinks />
+      <S.SidebarBottom>
+        <MenuLinks />
+        <SocialLinks />
+      </S.SidebarBottom>
     </S.SidebarWrapper>
   )
 }

@@ -41,7 +41,7 @@ export const PostItemTag = styled.div`
   border-radius: 50%;
   color: var(--postColor);
   display: flex;
-  font-size: 1.6rem;
+  font-size: 2rem;
   font-weight: 700;
   justify-content: center;
   min-height: 90px;
@@ -85,7 +85,6 @@ export const PostItemTitle = styled.h1`
 `
 export const PostItemDescription = styled.p`
   font-size: 1.6rem;
-  font-weight: 300;
   line-height: 1.2;
 `
 

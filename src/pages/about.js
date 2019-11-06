@@ -7,7 +7,7 @@ import * as S from "../components/Post/styled"
 
 const AboutPage = () => (
   <Layout>
-    <SEO title="About" />
+    <SEO title="About" description="Saiba um pouco mais sobre o desenvolvedor por trás deste website."/>
     <S.PostHeader>
       <S.PostTitle>Sobre mim</S.PostTitle>
     </S.PostHeader>
