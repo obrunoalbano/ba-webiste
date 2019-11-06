@@ -20,12 +20,12 @@ export const MenuLinksWrapper = styled.nav`
 `
 
 export const MenuLinksList = styled.ul`
-  font-size: 1.8rem;
+  font-size: 2.1rem;
   font-weight: 300;
 `
 
 export const MenuLinksItem = styled.li`
-  padding: 0.5rem 0;
+  padding: 1rem 0;
   .active {
     color: var(--highlight);
   }

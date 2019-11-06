@@ -12,6 +12,7 @@ export const SidebarWrapper = styled.aside`
   padding: 2rem;
   text-align: center;
   width: 30rem;
+  justify-content: space-between;
 
   ${media.lessThan("large")`
     align-items: flex-start;
@@ -45,4 +46,8 @@ export const SidebarNav = styled.div`
   ${media.greaterThan("large")`
     display: none;
   `}
+`
+
+export const SidebarBottom = styled.section`
+  width: 100%;
 `

@@ -1,4 +1,4 @@
-const handle = "johndoe"
+const handle = "obrunoalbano"
 
 const links = [
   {
@@ -10,17 +10,17 @@ const links = [
     url: `https://twitter.com/${handle}`,
   },
   {
-    label: "Youtube",
-    url: `https://www.youtube.com/${handle}`,
+    label: "Linkedin",
+    url: `https://www.linkedin.com/in/brunoalbano/`,
   },
   {
     label: "Instagram",
     url: `https://www.instagram.com/${handle}`,
   },
-  {
-    label: "Unsplash",
-    url: `https://unsplash.com/${handle}`,
-  },
+  // {
+  //   label: "Unsplash",
+  //   url: `https://unsplash.com/${handle}`,
+  // },
 ]
 
 export default links
