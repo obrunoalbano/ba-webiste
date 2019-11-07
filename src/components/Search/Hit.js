@@ -1,15 +1,24 @@
 import React from 'react'
-import PostItem from '../PostItem'
+import PropTypes from 'prop-types'
 
-const Hit = ({ hit }) => (
-  <PostItem
-    slug={hit.fields.slug}
-    background={hit.background}
-    title={hit.title}
-    date={hit.date}
-    description={hit.description}
-    category={hit.category}
-  />
-)
+import Post from '../PostItem'
+
+const Hit = props => {
+  const { hit } = props
+
+  return (
+    <Post
+      slug={hit.fields.slug}
+      title={hit.title}
+      date={hit.date}
+      description={hit.description}
+      main_class={hit.main_class}
+    />
+  )
+}
+
+Hit.propTypes = {
+  hit: PropTypes.object.isRequired
+}
 
 export default Hit
