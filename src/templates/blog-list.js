@@ -27,9 +27,10 @@ const BlogList = props => {
               frontmatter: { background, category, date, description, title },
               timeToRead,
               fields: { slug },
-            },
+            }, i
           }) => (
             <PostItem
+              key={i}
               slug={slug}
               background={background}
               category={category}
