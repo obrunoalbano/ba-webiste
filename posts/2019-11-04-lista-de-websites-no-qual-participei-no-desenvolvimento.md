@@ -1,7 +1,7 @@
 ---
 date: 2019-11-04 16:54:23
 title: Lista de websites no qual participei no desenvolvimento
-description: Alguns websites que pude participar no desenvolimento durante minha trajetória na area.
+description: Alguns websites que pude participar no desenvolimento durante minha trajetória na área.
 category: ME
 background: "#61728f"
 # background: "#d6ba32" "#23809e"

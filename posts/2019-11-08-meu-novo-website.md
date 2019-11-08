@@ -1,5 +1,5 @@
 ---
-date: 2019-11-04 16:54:23
+date: 2019-11-08 16:54:23
 title: Meu novo website
 description: Neste post explico um pouco sobre a stack que utilizei para o desenvolvimento deste website.
 category: ME
