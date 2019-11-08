@@ -44,7 +44,6 @@ export const query = graphql`
         title
         description
         category
-        background
         image
         date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
       }

@@ -12,7 +12,7 @@ const Hit = props => {
       title={hit.title}
       date={hit.date}
       description={hit.description}
-      main_class={hit.main_class}
+      category={hit.category}
     />
   )
 }

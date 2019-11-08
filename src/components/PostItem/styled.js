@@ -48,6 +48,14 @@ export const PostItemTag = styled.div`
   min-width: 90px;
   text-transform: uppercase;
 
+  &.case {
+    background-color: #23809e;
+  }
+
+  &.js {
+    background-color: #d6ba32;
+  }
+
   ${media.lessThan("large")`
     border-radius: 0;
     font-size: 1rem;
