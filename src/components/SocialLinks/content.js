@@ -17,6 +17,10 @@ const links = [
     label: "Instagram",
     url: `https://www.instagram.com/${handle}`,
   },
+  {
+    label: "Codepen",
+    url: `https://codepen.io/${handle}`,
+  },
   // {
   //   label: "Unsplash",
   //   url: `https://unsplash.com/${handle}`,
