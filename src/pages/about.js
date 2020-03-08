@@ -34,15 +34,12 @@ const AboutPage = () => (
         <li>Design Responsivo (Mobile First)</li>
         <li>CSS (Stylus, Sass, Less, PostCSS)</li>
         <li>Css Frameworks (Bootstrap, Foundation, Bulma)</li>
-        <li>Javascript (Design Patterns, Testes, ES6/7)</li>
-        <li>ReactJS / Redux / Flux</li>
-        <li>NodeJS</li>
+        <li>Javascript</li>
+        <li>Vue / React</li>
         <li>Automatizadores (Grunt, Gulp, Webpack, Parcel)</li>
         <li>Git</li>
-        <li>MySQL - MongoDB</li>
         <li>Scrum and Kanban</li>
-        <li>TDD e Continuous Integration</li>
-        <li>O que eu não sei, aprendo rápido =)</li>
+        <li>O que eu não sei, busco aprender =)</li>
       </ul>
 
       <h2>Contato</h2>
